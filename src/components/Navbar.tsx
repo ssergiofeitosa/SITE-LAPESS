@@ -127,15 +127,7 @@ export default function Navbar() {
             </li>
           ))}
         </ul>
-        <div className="p-4 border-t border-gray-100">
-          <Link
-            to="/"
-            onClick={() => handleNavClick('/#contato')}
-            className="block w-full text-center px-5 py-3 bg-secondary text-white text-sm font-semibold rounded-lg hover:bg-secondary-light transition-colors"
-          >
-            Fale conosco
-          </Link>
-        </div>
+
       </div>
     </header>
   )
