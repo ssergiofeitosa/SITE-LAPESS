@@ -13,11 +13,11 @@ export default function ProjectCard({
   return (
     <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
       <div className={`space-y-5 ${reverse ? 'lg:order-2' : 'lg:order-1'}`}>
-        <h3 className="text-2xl sm:text-3xl font-extrabold text-primary leading-tight">
+        <h3 className="text-2xl sm:text-5xl font-extrabold text-primary leading-tight">
           {title}
         </h3>
 
-        <p className="text-primary/60 leading-relaxed">
+        <p className="text-primary/60 leading-relaxed text-xl">
           {description}
         </p>
 
@@ -29,9 +29,9 @@ export default function ProjectCard({
         </a>
       </div>
 
-      <div className={`relative ${reverse ? 'lg:order-1' : 'lg:order-2'}`}>
+      <div className={`relative overflow-hidden ${reverse ? 'lg:order-1' : 'lg:order-2'}`}>
         <div className="relative w-full aspect-[4/3]">
-          <div className="absolute top-0 left-0 w-[70%] h-[75%] rounded-2xl border-3 border-secondary overflow-hidden">
+          <div className="absolute top-0 left-0 w-[65%] h-[65%] lg:w-[80%] lg:h-[75%] rounded-xl lg:rounded-2xl border-2 lg:border-3 border-secondary overflow-hidden">
             <img
               src={images[0]}
               alt={`${title} - imagem 1`}
@@ -39,7 +39,7 @@ export default function ProjectCard({
             />
           </div>
 
-          <div className="absolute bottom-0 right-0 w-[70%] h-[75%] rounded-2xl border-3 border-secondary overflow-hidden shadow-xl bg-white">
+          <div className="absolute top-[20%] left-[15%] lg:top-[25%] lg:left-[20%] w-[65%] h-[65%] lg:w-[80%] lg:h-[75%] rounded-xl lg:rounded-2xl border-2 lg:border-3 border-secondary overflow-hidden shadow-xl bg-white">
             <img
               src={images[1]}
               alt={`${title} - imagem 2`}
