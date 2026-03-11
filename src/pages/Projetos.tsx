@@ -5,7 +5,7 @@ import astronautImage from '../assets/Astronaut-cuate(3) 1.svg'
 export default function Projetos() {
   return (
     <>
-      <section className=" pb-16 lg:pb-24 bg-white">
+      <section className=" pb-16 lg:pb-24 lg:pt-8 bg-white">
         <div className="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col items-center text-center">
             <img

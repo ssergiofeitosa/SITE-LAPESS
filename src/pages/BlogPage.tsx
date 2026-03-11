@@ -28,19 +28,19 @@ export default function BlogPage() {
 
   return (
     <>
-      <section className="py-16 lg:py-24 bg-white">
+      <section className="py-16 lg:py-2 bg-white">
         <div className="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col items-center text-center">
             <img
               src={blogImage}
               alt="Blog"
-              className="w-full mb-8"
-              style={{ maxWidth: '708px', height: 'auto', aspectRatio: '708 / 335' }}
+              className="w-full mb-[24px]"
+              style={{ maxWidth: '708px', height: 'auto', aspectRatio: '708 / 535' }}
             />
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-primary leading-tight">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-primary leading-tighter tracking-tight">
               Blog
             </h1>
-            <p className="mt-4 text-[24px] text-primary/60 max-w-xl leading-relaxed">
+            <p className="mt-[12px] text-[24px] text-primary/60 max-w-xl leading-tight tracking-tight">
               Veja o que o nosso grupo de pesquisa está fazendo.
             </p>
           </div>

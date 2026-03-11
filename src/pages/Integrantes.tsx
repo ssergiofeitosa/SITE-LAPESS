@@ -11,7 +11,7 @@ export default function Integrantes() {
             <img
               src={collabImage}
               alt="Colaboração"
-              className="w-full max-w-md lg:max-w-lg mb-8"
+              className="w-full max-w-md lg:max-w-2xl mb-8"
             />
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-primary leading-tight ">
               Conheça nosso time
