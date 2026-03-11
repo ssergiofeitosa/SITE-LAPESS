@@ -63,7 +63,7 @@ export default function Navbar() {
       <header
         className={`border-b-[2px] ${hideBorder ? 'border-transparent' : 'border-[#E7EDF3]'} sticky top-0 z-50 transition-all duration-50 ${
           isScrolled
-            ? 'bg-white/95 backdrop-blur-md shadow-sm'
+            ? 'bg-white/90 backdrop-blur-md'
             : 'bg-transparent'
         }`}
       >
