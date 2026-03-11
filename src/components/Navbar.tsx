@@ -70,7 +70,7 @@ export default function Navbar() {
         <nav className="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16 lg:h-20 relative">
             <Link to="/" className="flex items-center group">
-              <img src="/logo-dark.svg" alt="LAPESS" className="h-8 lg:h-10 w-auto" />
+              <img src="/logo-dark.svg" alt="LAPESS" className="h-8 lg:h-14 w-auto" />
             </Link>
 
             <ul className="hidden lg:flex items-center gap-1 absolute left-1/2 -translate-x-1/2">

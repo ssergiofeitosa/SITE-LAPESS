@@ -5,7 +5,7 @@ import { posts } from '../data'
 
 export default function Blog() {
   return (
-    <section id="blog" className="py-20 lg:py-28 bg-white bg-gray-50/50">
+    <section id="blog" className="py-20 lg:py-28 bg-gray-50/50">
       <div className="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-2xl mb-14">
           <h2 className="text-3xl sm:text-4xl font-extrabold text-primary mt-3 leading-tight">
