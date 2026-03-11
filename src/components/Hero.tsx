@@ -7,7 +7,7 @@ export default function Hero() {
     <section className="relative overflow-hidden bg-white">
       <div className="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center min-h-[500px] py-16 lg:py-0">
-          <div className="space-y-6 lg:space-y-8 lg:pt-32">
+          <div className="space-y-6 lg:space-y-8 lg:pt-32 order-2 lg:order-1 text-center lg:text-left">
             <h1 className=" tracking-tighter text-[2rem] sm:text-[2.5rem] lg:text-[48px] font-semibold text-primary leading-tight tracking-tight">
               Construindo um futuro melhor
               <span className=" tracking-tighter text-secondary"> projeto por projeto.</span>
@@ -17,7 +17,7 @@ export default function Hero() {
               Conheça nossos integrantes, projetos desenvolvidos e muito mais.
             </p>
 
-            <div className="flex flex-wrap gap-4">
+            <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
               <Link
                 to="/projetos"
                 className="inline-flex items-center gap-2 px-6 h-10 bg-secondary text-white font-semibold rounded-lg hover:bg-secondary-light transition-colors duration-200"
@@ -35,7 +35,7 @@ export default function Hero() {
             </div>
 
           </div>
-          <div className="relative flex items-center justify-center lg:justify-end">
+          <div className="relative flex items-center justify-center lg:justify-end order-1 lg:order-2">
             <img
               src={heroImage}
               alt="Equipe criativa trabalhando juntos"
